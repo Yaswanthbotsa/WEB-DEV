@@ -1,0 +1,34 @@
+
+h1{
+    color: blue;
+}
+p{
+    border: 5px solid red;
+    border-radius: 20%;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    text-align: justify;
+    color: rgb(247, 245, 245);
+    background-color: black;
+    background-image: url(../SnapInsta.to_573434084_17868170379466131_3135731455601943219_n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table, 
+th,
+td {
+    border: 1px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table {
+    /* border-radius: 20%; */
+    background-color: green;
+}
+table td{
+    border-radius: 20%;
+    background-color:red;
+}

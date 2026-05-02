@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://www.w3schools.com/w3images/forestbridge.jpg);
+    color: white;
+}
+
+.cmg{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.days{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.footer{
+    font-size: 20px;
+    margin-top: 150px;
+}
