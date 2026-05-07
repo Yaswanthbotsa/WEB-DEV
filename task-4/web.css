@@ -1,0 +1,80 @@
+.navbar{
+    /* border: 2px solid black; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a{
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid black;
+
+    background: black;
+    color: white;
+
+    transition: .3s;
+}
+
+.navbar a:hover{
+    background: white;
+    color: black;
+}
+
+.hero{
+    height: 85vh;
+
+    background: url(https://www.w3schools.com/w3images/architect.jpg) no-repeat center/cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    font-size: 25px;
+
+}
+.Projects{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+}
+.Projects img{
+    width: 100%;
+}
+
+.about{
+
+}
+
+.about .about_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+}
+.card img{
+    width: 100%;
+}
+
+.form,input{
+    width: 98%;
+    padding: 10px;
+    display: grid;
+    /* margin-bottom: 12px; */
+    gap: 1em;
+}
+
+.msg{
+    background: black;
+    color: white;
+    width: 140px;
+}
+
+input[type="submit"]:hover{
+    background: lightgray;
+    color: black;
+    border-color: lightgray;
+}
